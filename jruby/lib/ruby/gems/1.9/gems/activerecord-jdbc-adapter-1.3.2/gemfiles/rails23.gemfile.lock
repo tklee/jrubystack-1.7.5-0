@@ -1,0 +1,63 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    actionmailer (2.3.18)
+      actionpack (= 2.3.18)
+    actionpack (2.3.18)
+      activesupport (= 2.3.18)
+      rack (~> 1.1.0)
+    activerecord (2.3.18)
+      activesupport (= 2.3.18)
+    activeresource (2.3.18)
+      activesupport (= 2.3.18)
+    activesupport (2.3.18)
+    appraisal (0.5.2)
+      bundler
+      rake
+    atomic (1.1.10)
+    atomic (1.1.10-java)
+    bcrypt-ruby (3.0.1)
+    bcrypt-ruby (3.0.1-java)
+    metaclass (0.0.1)
+    mocha (0.13.3)
+      metaclass (~> 0.0.1)
+    multi_json (1.7.7)
+    rack (1.1.6)
+    rails (2.3.18)
+      actionmailer (= 2.3.18)
+      actionpack (= 2.3.18)
+      activerecord (= 2.3.18)
+      activeresource (= 2.3.18)
+      activesupport (= 2.3.18)
+      rake (>= 0.8.3)
+    rake (10.1.0)
+    simplecov (0.7.1)
+      multi_json (~> 1.0)
+      simplecov-html (~> 0.7.1)
+    simplecov-html (0.7.1)
+    test-unit (2.5.4)
+    test-unit-context (0.3.1)
+      test-unit (>= 2.4.0)
+    thread_safe (0.1.2)
+      atomic
+    thread_safe (0.1.2-java)
+      atomic
+
+PLATFORMS
+  java
+  ruby
+
+DEPENDENCIES
+  activerecord (~> 2.3.18)
+  appraisal
+  bcrypt-ruby (~> 3.0.0)
+  mocha (~> 0.13.1)
+  mysql2
+  pg
+  rails (~> 2.3.18)
+  rake
+  simplecov
+  sqlite3
+  test-unit (= 2.5.4)
+  test-unit-context (>= 0.3.0)
+  thread_safe

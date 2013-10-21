@@ -1,0 +1,6 @@
+#!/bin/sh
+
+. /Applications/jrubystack-1.7.5-0/scripts/setenv.sh
+
+unset DYLD_LIBRARY_PATH
+exec /Applications/jrubystack-1.7.5-0/jruby/bin/.jruby.bin  "$@"

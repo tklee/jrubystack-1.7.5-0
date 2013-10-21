@@ -1,0 +1,59 @@
+INSTALLATION REPORT
+===================
+
+Thank you for installing BitNami JRubyStack. This file contains the
+configuration settings that were used when BitNami JRubyStack was 
+originally installed that may be useful in the future.
+
+This file is located in:
+/Applications/jrubystack-1.7.5-0/report.txt
+
+CONFIGURATION INFORMATION
+=========================
+
+BitNami JRubyStack has been installed in the following dir:
+
+/Applications/jrubystack-1.7.5-0
+
+
+MySQL was installed with the following configuration:
+
+Binaries location: /Applications/jrubystack-1.7.5-0/mysql/bin
+Port: 3307
+Username: jrubystack
+Password: qwertx
+Root password: qwertx
+
+
+Tomcat was installed with the following configuration:
+
+Binaries location: /Applications/jrubystack-1.7.5-0/apache-tomcat/bin
+Port: 8080
+
+GlassFish was installed as a gem, will listen by default on port 3000.
+
+
+In order to run 'jruby', 'gem', 'svn', 'mysql' or any other
+commands the proper environment variables and settings must be setup.
+
+
+You can use the 'jrubyconsole':
+
+/Applications/jrubystack-1.7.5-0/jrubyconsole
+
+or you can load all environment variables with:
+
+. /Applications/jrubystack-1.7.5-0/scripts/setenv.sh
+
+
+For further instructions about how to run BitNami JRubyStack aplications and deploying
+your web application to Tomcat, take a look at the Quick Start Guide:
+
+/Applications/jrubystack-1.7.5-0/jrubystack.pdf
+
+A sample Rails application was generated in the following path:
+/Applications/jrubystack-1.7.5-0/projects/jrubystack
+
+A sample database.yml file can be found in the following path:
+/Applications/jrubystack-1.7.5-0/projects/jrubystack/config/database.yml
+                    

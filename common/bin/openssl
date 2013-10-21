@@ -1,0 +1,8 @@
+#!/bin/sh
+LD_LIBRARY_PATH="/Applications/jrubystack-1.7.5-0/common/lib:$LD_LIBRARY_PATH"	   
+DYLD_LIBRARY_PATH="/Applications/jrubystack-1.7.5-0/common/lib:$DYLD_LIBRARY_PATH"	   
+OPENSSL_CONF="/Applications/jrubystack-1.7.5-0/common/openssl/openssl.cnf"
+export LD_LIBRARY_PATH
+export DYLD_LIBRARY_PATH
+export OPENSSL_CONF
+exec /Applications/jrubystack-1.7.5-0/common/bin/openssl.bin "$@"

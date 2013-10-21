@@ -1,0 +1,59 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (3.1.12)
+      activesupport (= 3.1.12)
+      builder (~> 3.0.0)
+      i18n (~> 0.6)
+    activerecord (3.1.12)
+      activemodel (= 3.1.12)
+      activesupport (= 3.1.12)
+      arel (~> 2.2.3)
+      tzinfo (~> 0.3.29)
+    activesupport (3.1.12)
+      multi_json (~> 1.0)
+    appraisal (0.5.2)
+      bundler
+      rake
+    arel (2.2.3)
+    atomic (1.1.10)
+    atomic (1.1.10-java)
+    bcrypt-ruby (3.0.1)
+    bcrypt-ruby (3.0.1-java)
+    builder (3.0.4)
+    i18n (0.6.4)
+    metaclass (0.0.1)
+    mocha (0.13.3)
+      metaclass (~> 0.0.1)
+    multi_json (1.7.7)
+    rake (10.1.0)
+    simplecov (0.7.1)
+      multi_json (~> 1.0)
+      simplecov-html (~> 0.7.1)
+    simplecov-html (0.7.1)
+    test-unit (2.5.4)
+    test-unit-context (0.3.1)
+      test-unit (>= 2.4.0)
+    thread_safe (0.1.2)
+      atomic
+    thread_safe (0.1.2-java)
+      atomic
+    tzinfo (0.3.37)
+
+PLATFORMS
+  java
+  ruby
+
+DEPENDENCIES
+  activerecord (~> 3.1.12)
+  appraisal
+  bcrypt-ruby (~> 3.0.0)
+  mocha (~> 0.13.1)
+  mysql2
+  pg
+  rake
+  simplecov
+  sqlite3
+  test-unit (= 2.5.4)
+  test-unit-context (>= 0.3.0)
+  thread_safe

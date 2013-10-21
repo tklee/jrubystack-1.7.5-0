@@ -1,0 +1,8 @@
+#!/bin/sh
+LD_LIBRARY_PATH="/Applications/jrubystack-1.7.5-0/common/lib:$LD_LIBRARY_PATH"
+DYLD_LIBRARY_PATH="/Applications/jrubystack-1.7.5-0/common/lib:$DYLD_LIBRARY_PATH"
+CURL_CA_BUNDLE="/Applications/jrubystack-1.7.5-0/common/openssl/certs/curl-ca-bundle.crt"
+export LD_LIBRARY_PATH
+export DYLD_LIBRARY_PATH
+export CURL_CA_BUNDLE
+exec /Applications/jrubystack-1.7.5-0/common/bin/curl.bin "$@"

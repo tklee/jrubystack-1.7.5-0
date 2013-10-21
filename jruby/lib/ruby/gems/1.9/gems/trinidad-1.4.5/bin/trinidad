@@ -1,0 +1,6 @@
+#!/usr/bin/env jruby
+
+require "trinidad"
+
+Trinidad::CommandLineParser.parse(ARGV)
+Trinidad::Server.new(Trinidad.configuration).start

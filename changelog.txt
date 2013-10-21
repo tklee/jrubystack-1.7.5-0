@@ -1,0 +1,154 @@
+============ CHANGELOG =============
+
+Version 1.7.5-0      2013-10-08
+* Updated JRuby to 1.7.5
+* Updated Java to 1.7.0_40
+* Updated Subversion to 1.8.3
+* Updated Passenger to 4.0.14
+* Updated Tomcat to 7.0.42
+* Updated MySQL to 5.5.32
+
+Version 1.7.4-1      2013-06-21
+* Updated Java to 1.7.0_25
+
+Version 1.7.4-0      2013-05-22
+* Updated JRuby to 1.7.4
+* Upgrade Java to 1.7.0_21
+* Updated MySQL to 5.5.30
+* Updated Tomcat to 7.0.40
+
+Version 1.7.3-1      2013-03-22
+* Updated Rails to 3.2.13 to fix CVE-2013-1855,
+CVE-2013-1856 and CVE-2013-1857.
+
+Version 1.7.3-0      2013-02-23
+* Updated JRuby to 1.7.3
+* Updated rails and its dependencies to 3.2.12
+* Updated Tomcat to 7.0.37
+
+Version 1.7.2-0      2013-01-09
+* Updated JRuby to 1.7.2
+* Updated rails and its dependencies to 3.2.11
+* Updated Tomcat to 7.0.34
+
+Version 1.7.1-0      2012-12-04
+* Updated JRuby to 1.7.1
+* Updated Tomcat to 7.0.33
+
+Version 1.7.0-0      2012-10-24
+* Update JRuby to 1.7.0
+* Update JKD to 1.7.0_09
+
+Version 1.7.0.RC2-0      2012-10-23
+* Update JRuby 1.7.0.RC2
+* Update Tomcat to 7.0.32
+* Changed Tomcat server to run as 'tomcat' user when
+it is installed as root
+
+Version 1.6.7.2-0      2012-05-03
+* Update JRuby to 1.6.7.2
+* Update Tomcat to 7.0.27
+* Update JDK to 1.6.0_31
+
+Version 1.6.7-0      2012-04-27
+* Update JRuby to 1.6.7
+* Updated gems:
+* Updated gem multi_json 1.1.0 
+* Updated gem journey 1.0.3
+* Updated gem arel 3.0.2
+* Updated gem jdbc-sqlite3 3.7.2
+* Updated gem activerecord-jdbcsqlite3-adapter 1.2.2
+* Updated gem execjs 1.3.0
+* Updated gem coffee-rails 3.2.2
+* Updated gem jquery-rails 2.0.0
+* Updated gem jruby-openssl 0.7.6.1
+* Updated gem sass 3.1.15
+* Updated gem sass-rails 3.2.4
+* Updated gem therubyrhino 1.73.1
+* Updated gem uglifier 1.2.3
+
+Version 1.6.6-0      2012-02-21
+* Update JRuby to 1.6.6
+* Add support for linux x64 
+* Update JDK to 1.6.0_27
+* Disable MySQL binary logging
+* Don't allow to execute the ctlscript.sh script as root when the stack is installed as a non root user
+
+Version 1.6.0-0	     2011-03-16
+* Update JRuby to 1.6.0
+
+Version 1.5.6-0      2011-03-02
+* Updated jruby (1.3RC2 -> 1.5.6)
+* Updated Tomcat (5.5.25 -> 6.0.32)
+* Updated Subversion (1.6.12 -> 1.6.15, unix only)
+* Updated SQLite (3.5.1 -> 3.7.5)
+* Updated OpenSSL (0.9.8o -> 1.0.0d, unix only)
+* Updated warbler gem (0.9.13 -> 1.2.1)
+* Updated jruby-openssl gem (0.5 -> 0.7.3)
+* Updated activerecord-jdbc-adapter gem (0.9.1 -> 1.1.1)
+* Updated activerecord-jdbcmysql-adapter gem (0.9.1 -> 1.1.1)
+* Updated jdbc-mysql gem (5.0.4 -> 5.1.13)
+* Updated activesupport, actionpack, actionmailer, activerecord,
+activeresource gems (2.3.2 -> 2.3.10)
+* Updated rails (2.3.2 -> 2.3.10)
+* Updated highline gem (1.5.2 -> 1.6.1)
+* Update rack (1.0.0 -> 1.1.0)
+* Added gems rubyzip 0.9.4, bouncy-castle-java 1.5.0145.2, jruby-jars 1.5.6, jruby-rack 1.0.6
+* Use URIEncoding UTF-8 for Tomcat
+* Set version information for openSSL on Linux
+
+Version: 1.2.0 2009-06-04
+* Updated jruby (1.1.4 -> 1.3RC2)
+* Updated java (1.5.0 -> 1.6.0_14)
+* Updated rails (2.1.0 -> 2.3.2)
+* Updated gem actionmailer (2.1.0 -> 2.3.2)
+* Updated gem actionpack (2.1.0 -> 2.3.2)
+* Updated gem activerecord (2.1.0 -> 2.3.2)
+* Updated gem activerecord-jdbc-adapter (0.8.2 -> 0.9.1)
+* Updated gem activerecord-jdbcmysql-adapter (0.8.2 -> 0.9.1)
+* Updated gem activeresource (2.1.0 -> 2.3.2)
+* Updated gem activesupport (2.1.0 -> 2.3.2)
+* Updated gem glassfish (0.1.1 -> 0.9.5)
+* Updated gem jruby-openssl (0.3 -> 0.5)
+* Updated gem rspec (1.1.4 -> 1.1.6)
+* Updated gem warbler (0.9.10 -> 0.9.13)
+* Added gem rack (1.0.0)
+
+Version: 1.1.4-0 2008-09-04
+* Updated jruby (1.1RC2 -> 1.1.4)
+* Updated rails (2.0.2 -> 2.1.0)
+* Updated gem actionmailer (2.0.2 -> 2.1.0)
+* Updated gem actionpack (2.0.2 -> 2.1.0)
+* Updated gem activerecord (2.0.2 -> 2.1.0)
+* Updated gem activerecord-jdbc-adapter (0.7.2 -> 0.8.2)
+* Updated gem activerecord-jdbcmysql-adapter (0.7.2 -> 0.8.2)
+* Updated gem activeresource (2.0.2 -> 2.1.0)
+* Updated gem activesupport (2.0.2 -> 2.1.0)
+* Updated gem jruby-openssl (0.1.1 -> 0.3)
+* Updated gem rspec (1.1.3 -> 1.1.4)
+* Updated gem warbler (0.9.3 -> 0.9.10)
+* Added gem_highline (1.4.0)
+* Added gem_echoe (3.0)
+* Added gem_rubyforge (1.0.0)
+
+Version: 1.0-beta-2    2008-08-12
+* Fixed installation on Linux 64 bits systems
+
+Version: 1.0-beta-1    2008-05-xx
+* Updated gem jruby-openssl [0.1.1 -> 0.2.3]
+* Updated gem activerecord-jdbcmysql-adapter [0.7.2 -> 0.8]
+* Updated gem activerecord-jdbc-adapter [0.7.2 -> 0.8]
+* Updated gem warbler [0.9.3 -> 0.9.5]
+
+Version: 1.0-beta-0    2008-03-06
+* Initial beta release with the following.
+  - JRuby 1.1RC2
+  - Rails 2.0.2
+  - Java 1.5.0
+  - GlassFish gem 0.1.1-universal-java
+  - Warbler gem 0.9.3
+  - Apache Tomcat 5.5.25
+  - Subversion 1.4.6
+  - SQLite 3.5.1
+  - MySQL 5.0.45
+

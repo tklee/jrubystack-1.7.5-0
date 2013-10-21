@@ -1,0 +1,13 @@
+SERF_MAJOR_VERSION=1
+prefix=/bitnami/jrubystack-osx-x64/output/common/lib
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/serf-1
+
+Name: serf
+Description: HTTP client library
+Version: 1.3.1
+Requires.private: libssl libcrypto
+Libs: -L${libdir} -lserf-${SERF_MAJOR_VERSION}
+Libs.private: /bitnami/jrubystack-osx-x64/output/common/lib/libaprutil-1.la -lldap -llber    -lexpat -liconv /bitnami/jrubystack-osx-x64/output/common/lib/libapr-1.la -lpthread None -lz
+Cflags: -I${includedir}

@@ -1,0 +1,6 @@
+#!/bin/sh
+
+PATH="/Applications/jrubystack-1.7.5-0/common/bin:/Applications/jrubystack-1.7.5-0/sqlite/bin:/Applications/jrubystack-1.7.5-0/subversion/bin:/Applications/jrubystack-1.7.5-0/mysql/bin:/Applications/jrubystack-1.7.5-0/jruby/bin:/Applications/jrubystack-1.7.5-0/java/bin:$PATH"
+alias mysql="mysql -S /mysql/tmp/mysql.sock"
+exec /bin/bash --noprofile --norc
+                    

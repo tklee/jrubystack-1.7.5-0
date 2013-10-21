@@ -1,0 +1,9 @@
+#!/bin/sh
+DYLD_LIBRARY_PATH=/Applications/jrubystack-1.7.5-0/mysql/lib:$DYLD_LIBRARY_PATH
+export DYLD_LIBRARY_PATH
+case "$@" in
+  *--no-defaults*)
+    exec $0.bin "$@"
+    exit
+esac
+exec $0.bin --defaults-file=/Applications/jrubystack-1.7.5-0/mysql/my.cnf "$@"

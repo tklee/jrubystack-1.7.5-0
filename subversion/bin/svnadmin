@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. /Applications/jrubystack-1.7.5-0/scripts/setenv.sh
+
+exec /Applications/jrubystack-1.7.5-0/subversion/bin/.svnadmin.bin  "$@"
